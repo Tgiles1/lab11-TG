@@ -1,5 +1,8 @@
 import math
 
+#https://github.com/Tgiles1/lab11-TG.git
+#Partner 1: Tim Giles
+
 def square_root(a):
     try:
         if a < 0:

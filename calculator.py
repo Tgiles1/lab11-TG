@@ -1,7 +1,9 @@
-import math
-
 #https://github.com/Tgiles1/lab11-TG.git
 #Partner 1: Tim Giles
+
+import math
+
+
 
 def square_root(a):
     try:
@@ -17,17 +19,17 @@ def hypotenuse(a, b):
     except Exception as e:
         raise e
     
-#blank
+
 def add(a, b):
     return a + b
 
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero (a == 0).")
     return b / a
@@ -39,6 +41,6 @@ def logarithm(a, b):
         raise ValueError("Logarithm argument must be positive.")
     return math.log(b) / math.log(a)
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
 
